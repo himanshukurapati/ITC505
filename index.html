@@ -5,5 +5,14 @@
   </head>
   <body>
     <h1>Hello World!!</h1>
+    <footer>
+        <p>Last updated: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script type="text/javascript">
+         var x = document.lastModified;
+         document.getElementById('lastModified').textContent = x;
+    </script>
   </body>
 </html>
